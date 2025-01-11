@@ -68,3 +68,35 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+# Assignment Details
+
+## Detailed Requirements
+
+1. When the application loads, it should display an empty list.
+2. The input field should accept user text input.
+3. When the button is clicked:
+4. The text from the input field should be added to the list.
+5. The input field should be cleared.
+6. If the input field is empty and the button is clicked, nothing should be added to the list.
+
+## Sample Interaction
+
+### Initial State
+
+1. The list is empty.
+2. The input field is empty.
+
+### User Action 1
+
+1. User types "First Item" in the input field.
+2. User clicks "Add Item" button.
+3. The list displays "First Item".
+
+### User Action 2
+
+1. User types "Second Item" in the input field.
+2. User clicks "Add Item" button.
+3. The list displays:
+4. "First Item"
+5. "Second Item"
